@@ -271,11 +271,6 @@ footer{
         margin-bottom: 60px;
     }
 
-    .chopper img{
-    max-width: 430.8px;
-    height: 287.19px;
-    }
-
     .class-produto button{
         margin-top: 16px;
     }
@@ -295,12 +290,91 @@ footer{
 /*Tablets e iPads*/
 
 @media screen and (min-width:641px) and (max-width:1023px){
+    .conteudo{
+        display: block;
+    }
+    
+    .container{
+        max-width: 640px;
+        width: 90%;
+        margin: 0 auto;
+    }
 
-}
+    /*Header*/
+    
+    header{
+        display: block;
+    }
 
+    header > .container{
+        justify-content: space-evenly;
+    }
 
-@media screen and (min-width: 1024px){
-    .botao-menu{
-        display: none;
+    .opcoes li{
+        display: block;
+        font-size: 1em;
+        margin-left: 10px;
+        color: #e7e7e7;
+    }
+
+    .opcoes ul{
+        align-items: center;
+    }
+
+    /*main*/
+
+    .conteudo{
+        display: block;
+    }
+
+    section h2{
+    font-size: 1.6em;
+    font-weight: 900;
+    margin-bottom: 48px;
+    }
+
+    /*Sobre a Loja*/
+
+    .conteudo-sobre{
+        display: block;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .conteudo-sobre img{
+        margin-bottom: 30px;
+        max-width: 70%;
+    }
+
+    /*section produtos*/
+
+    #section-produtos{
+    padding-top: 3em;
+    padding-bottom: 1em;
+    }
+
+    .produtos{
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+
+    .class-produto{
+        max-width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .class-produto button{
+        margin-top: 16px;
+    }
+
+    /*Section pedido*/
+
+    #section-pedido{
+    padding-top: 4em;
+    padding-bottom: 8em;
+    }
+
+    .form-pedido{
+        width: 100%;
     }
 }
